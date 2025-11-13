@@ -66,7 +66,15 @@ button:hover {
   background-color: #774d00;
 
 }
+.operador:hover {
+  background-color: #946000;
+
+}
 .igual{
   background-color: #555;
+
+}
+.igual:hover{
+  background-color: #777777;
 
 }

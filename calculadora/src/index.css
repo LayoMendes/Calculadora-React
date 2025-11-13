@@ -2,12 +2,28 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: linear-gradient(135deg, #808080, #000000);
 
-  display: flex;                /* ativa o flexbox */
-  justify-content: center;      /* centraliza na horizontal */
-  align-items: center;          /* centraliza na vertical */
+  /* degrade mais contrastante: cinza claro para preto */
+  background: linear-gradient(135deg, #cccccc, #3b3b3b, #888888, #3b3b3b);
+  background-size: 400% 400%;
+  animation: gradientAnimation 20s ease infinite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   color: white;
   font-family: sans-serif;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

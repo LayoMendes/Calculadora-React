@@ -1,0 +1,12 @@
+.clock {
+  position: fixed;      /* fica sempre no mesmo lugar */
+  top: 10px;            /* distância do topo */
+  right: 10px;          /* distância da direita */
+  background-color: #111;
+  color: #0f0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  box-shadow: 0 0 10px #0f0;
+}

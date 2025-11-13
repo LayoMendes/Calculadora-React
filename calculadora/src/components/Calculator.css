@@ -17,6 +17,25 @@
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 15px;
+
+  overflow-x: auto;       
+  overflow-y: hidden;    
+  white-space: nowrap;     
+
+  scrollbar-width: thin;  
+}
+
+.display::-webkit-scrollbar {
+  height: 6px;             
+}
+
+.display::-webkit-scrollbar-thumb {
+  background: #0f0;        
+  border-radius: 3px;
+}
+
+.display::-webkit-scrollbar-track {
+  background: #111;        
 }
 
 .buttons {
@@ -42,4 +61,12 @@ button:hover {
 
 .zero {
   grid-column: span 2;
+}
+.operador {
+  background-color: #774d00;
+
+}
+.igual{
+  background-color: #555;
+
 }
